@@ -12,10 +12,10 @@ function Header() {
             Notes Mart</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-nabbar-nav' >
-<Nav className='ms-auto'>
-<Nav.Link href='/cart'><FaShoppingCart /> Cart</Nav.Link>
-<Nav.Link href='/login'><FaUser /> login</Nav.Link>
-</Nav>
+          <Nav className='ms-auto'>
+          <Nav.Link href='/cart'><FaShoppingCart /> Cart</Nav.Link>
+          <Nav.Link href='/login'><FaUser /> login</Nav.Link>
+          </Nav>
 
           </Navbar.Collapse>
         </Container>
